@@ -1,24 +1,29 @@
 <config>
+  <!-- Folding Core -->
+  <checkpoint v='9'/>
+
   <!-- Folding Slot Configuration -->
   <cause v='COVID_19'/>
   <client-type v=''/>
 
-  <!-- HTTP Server -->
-  <allow v='127.0.0.1 0.0.0.0/0'/>
-
-  <!-- Remote Command Server -->
-  <password v='PassGoesHere2!'/>
-
   <!-- Slot Control -->
-  <power v='FULL'/>
+  <power v='full'/>
 
   <!-- User Information -->
   <passkey v='5a049fdbdf97f7685a049fdbdf97f768'/>
   <team v='240445'/>
   <user v='Nutanix-Italy-2'/>
 
-  <!-- Web Server -->
-  <web-allow v='0.0.0.0/0'/>
+  <!-- Work Unit Control -->
+  <next-unit-percentage v='90'/>
 
   <!-- Folding Slots -->
   <slot id='0' type='CPU'/>
+
+  <!-- HTTP Server -->
+  <allow v='127.0.0.1 0.0.0.0/0'/>
+
+  <!-- Web Server -->
+  <web-allow v='0.0.0.0/0'/>
+
+</config>
