@@ -1,5 +1,6 @@
 <config>
   <!-- Folding Slot Configuration -->
+  <cause v='COVID_19'/>
   <client-type v=''/>
 
   <!-- HTTP Server -->
@@ -21,4 +22,3 @@
 
   <!-- Folding Slots -->
   <slot id='0' type='CPU'/>
-</config>
